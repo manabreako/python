@@ -4,6 +4,26 @@
 Составить словарь словарей расстояний между городами, используя формулу: 
 $distances = \sqrt{((x_1 - x_2) ^ 2 + (y_1 - y_2) ^ 2)}$
 ## Результат вычислений: 
+
+sites = {
+    'Moscow': (550, 370),
+    'London': (510, 510),
+    'Paris': (480, 480),
+}
+
+
+distances = {}
+
+distances = {
+    city1: {
+        city2: round(((x1 - x2)** 2 + (y1 - y2)**2) ** 0.5, 2)
+        for (city2, (x2, y2)) in sites.items() if city1 != city2
+    }
+    for (city1, (x1, y1)) in sites.items()
+}
+
+print(distances)
+
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/0.png)
 
 ## Задание №2
@@ -16,13 +36,26 @@ $distances = \sqrt{((x_1 - x_2) ^ 2 + (y_1 - y_2) ^ 2)}$
 ## Задание №3
 Расставить знаки операций "+", "-", "*", "/" и скобки между числами "1 2 3 4 5" так, что бы получилось число "25".
 ## Результат вычислений:
+
+a = ((1*2)+3+(4*5))
+print(a)
+
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/2.png)
 
 ## Задание №4
 Есть строка с перечислением фильмов: 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'. 
 Нужно вывести на консоль с помощью индексации строки, последовательно: первый фильм, последний, второй, второй с конца.
 ## Результат вычислений:
-![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/4.png)
+
+my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
+
+
+print(my_favorite_movies[0:10])
+print(my_favorite_movies[42:57])
+print(my_favorite_movies[12:25])
+print(my_favorite_movies[-22:-17])
+
+![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/Screenshot_20250220_142009.png)
 
 ## Задание №5
 Нужно создать список семьи и их роста, вывести рост отца и общий рост семьи.
@@ -70,7 +103,7 @@ $distances = \sqrt{((x_1 - x_2) ^ 2 + (y_1 - y_2) ^ 2)}$
 ## Задание №11
 Дан словарь кодов товаров и словарь списка количества товаров на складе, нужно рассчитать на какую сумму лежит каждого товара на складе.
 ## Результат вычислений:
-![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/Screenshot_20250220_142009.png)
+![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/10.png)
 
 # Список использованных источников: 
 1) [Подробная информация об обратных срезах](https://clck.ru/MfEMS)
