@@ -4,7 +4,7 @@
 Составить словарь словарей расстояний между городами, используя формулу: 
 $distances = \sqrt{((x_1 - x_2) ^ 2 + (y_1 - y_2) ^ 2)}$
 ## Результат вычислений: 
-
+```
 sites = {
     'Moscow': (550, 370),
     'London': (510, 510),
@@ -23,7 +23,7 @@ distances = {
 }
 
 print(distances)
-
+```
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/0.png)
 
 ## Задание №2
@@ -36,17 +36,17 @@ print(distances)
 ## Задание №3
 Расставить знаки операций "+", "-", "*", "/" и скобки между числами "1 2 3 4 5" так, что бы получилось число "25".
 ## Результат вычислений:
-
+```
 a = ((1*2)+3+(4*5))
 print(a)
-
+```
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/2.png)
 
 ## Задание №4
 Есть строка с перечислением фильмов: 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'. 
 Нужно вывести на консоль с помощью индексации строки, последовательно: первый фильм, последний, второй, второй с конца.
 ## Результат вычислений:
-
+```
 my_favorite_movies = 'Терминатор, Пятый элемент, Аватар, Чужие, Назад в будущее'
 
 
@@ -54,12 +54,30 @@ print(my_favorite_movies[0:10])
 print(my_favorite_movies[42:57])
 print(my_favorite_movies[12:25])
 print(my_favorite_movies[-22:-17])
-
+```
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/Screenshot_20250220_142009.png)
 
 ## Задание №5
 Нужно создать список семьи и их роста, вывести рост отца и общий рост семьи.
 ## Результат вычислений:
+```
+my_family = ['я', 'отец', 'мама', 'сестра']
+
+
+my_family_height = [
+    ['я', 183], # мой рост
+    ['отец', 177], # рост отца
+    ['мама', 170], # рост мамы
+    ['сестра', 160], # рост сестры
+]
+
+father_height = next(height for name, height in my_family_height if name == 'отец')
+print(f'Рост отца - {father_height} см')
+
+
+all_height = sum(height for name, height in my_family_height)
+print(f'Общий рост - {all_height} см')
+```
 ![](https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/4.png)
 
 ## Задание №6
