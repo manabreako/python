@@ -12,7 +12,7 @@ for x in product('КАТЕР', repeat=6):
         k+=1
 print(k)
 ```
-![](Screenshots/Screenshot1.png)
+![](https://github.com/manabreako/python/blob/main/labaas2/sreens/1.png)
 
 ## Задание №2
 Значение выражения 2166+2164+366−614−24 216^6 + 216^4 + 36^6 − 6^{14} − 24 2166+2164+366−614−24 записали в системе счисления с основанием 6. Сколько различных цифр содержит эта запись?
@@ -28,7 +28,7 @@ f.reverse()
 k=set(f)
 print(len(k))
 ```
-![](Screenshots/Screenshot2.png)
+![](https://github.com/manabreako/python/blob/main/labaas2/sreens/2.png)
 
 ## Задание №3
 Назовём маской числа последовательность цифр, в которой также могут встречаться следующие символы:
@@ -46,7 +46,7 @@ for a in range(23, 10**9+1,23):
     if fnmatch(s, '12345?7?8')==1:
         print(a, a//23)
 ```
-![](Screenshots/Screenshot3.png)
+![](https://github.com/manabreako/python/blob/main/labaas2/sreens/3.png)
 
 
 # Список использованных источников: 
