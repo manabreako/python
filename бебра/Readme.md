@@ -4,7 +4,7 @@
 Составить словарь словарей расстояний между городами, используя формулу: 
 $distances = \sqrt{((x_1 - x_2) ^ 2 + (y_1 - y_2) ^ 2)}$
 ## Результат вычислений: 
-![](Screenshots/Screenshot1.png)
+![https://github.com/manabreako/python/blob/main/%D0%B1%D0%B5%D0%B1%D1%80%D0%B0/SCRENS/0.png](Screenshots/Screenshot1.png)
 
 ## Задание №2
 1) Для начала нужно вывести на консоль значение площади круга с точностью до 4-х знаков после запятой 
