@@ -45,5 +45,5 @@ print_hp()
 
 
 # Список использованных источников: 
-1) [Подробная информация об обратных срезах](https://clck.ru/MfEMS)
-2) [Функция round](https://docs.python.org/3/search.html?q=round)
+1) [Декоратор для кэширования](https://clck.ru/MfEMS)
+2) [Замыкание](https://docs.python.org/3/search.html?q=round)
