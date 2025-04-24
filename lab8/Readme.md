@@ -146,7 +146,7 @@ if __name__== "__main__":
 ### Результат
 ![](https://github.com/manabreako/python/blob/main/lab8/Screenshot_20250424_124719.png)
 ### Текстовый документ
-![](https://github.com/manabreako/python/blob/main/lab8/Screenshot_20250417_133702.png)
+![](https://github.com/manabreako/python/blob/main/lab8/Screenshot_20250424_124836.png)
 
 
 # Список использованных источников: 
