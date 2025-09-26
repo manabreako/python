@@ -1,0 +1,62 @@
+﻿namespace TeoryFear
+{
+    partial class FormResults
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.txtResults = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtResults
+            // 
+            this.txtResults.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtResults.Location = new System.Drawing.Point(0, 0);
+            this.txtResults.Multiline = true;
+            this.txtResults.Name = "txtResults";
+            this.txtResults.Size = new System.Drawing.Size(800, 450);
+            this.txtResults.TabIndex = 0;
+            this.txtResults.TextChanged += new System.EventHandler(this.txtResults_TextChanged);
+            // 
+            // FormResults
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtResults);
+            this.Name = "FormResults";
+            this.Text = "Результаты";
+            this.Load += new System.EventHandler(this.FormResults_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TextBox txtResults;
+    }
+}
